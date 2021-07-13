@@ -1,0 +1,25 @@
+.user-container {
+  position: relative;
+  overflow: hidden;
+  transition: height 0.3s cubic-bezier(0.7, 0.3, 0.1, 1), -webkit-transform 0.3s cubic-bezier(0.7, 0.3, 0.1, 1);
+  margin-bottom: 16px;
+}
+
+.user-container__filter {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.user-container__filter h4 {
+  font-size: 14px !important;
+}
+
+.user__active-filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bulk-invite-mail .ant-select-selector {
+  min-height: 88px;
+}

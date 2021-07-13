@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+
+.ant-table-tbody > tr > td{
+  font-weight: normal;
+  font-size: 12px;
+}

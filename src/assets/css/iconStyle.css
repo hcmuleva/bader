@@ -1,0 +1,39 @@
+.folder-red svg .icon-primary-color {
+  fill: #B23B00;
+}
+
+.folder-red svg .icon-secondary-color {
+  fill: #f50;
+}
+
+.folder-light-blue svg .icon-primary-color {
+  fill: #1F80AB;
+}
+
+.folder-light-blue svg .icon-secondary-color {
+  fill: #2db7f5;
+}
+
+.folder-green svg .icon-primary-color {
+  fill: #5E9148;
+}
+
+.folder-green svg .icon-secondary-color {
+  fill: #87d068;
+}
+
+.folder-blue svg .icon-primary-color {
+  fill: #0B63A3;
+}
+
+.folder-blue svg .icon-secondary-color {
+  fill: #108ee9;
+}
+
+.folder-light-green svg .icon-primary-color {
+  fill: #A6A648;
+}
+
+.folder-light-green svg .icon-secondary-color {
+  fill: #eeee68;
+}

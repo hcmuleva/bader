@@ -1,0 +1,23 @@
+.notice-board-container {
+  position: relative;
+  overflow: hidden;
+  transition: height 0.3s cubic-bezier(0.7, 0.3, 0.1, 1), -webkit-transform 0.3s cubic-bezier(0.7, 0.3, 0.1, 1);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.notice-board-container__filter {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.notice-board-container__filter h4 {
+  font-size: 14px !important;
+}
+
+.notice-board__active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}

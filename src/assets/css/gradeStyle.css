@@ -1,0 +1,51 @@
+.grade-filter-container {
+  position: relative;
+  overflow: hidden;
+  transition: height 0.3s cubic-bezier(0.7, 0.3, 0.1, 1), -webkit-transform 0.3s cubic-bezier(0.7, 0.3, 0.1, 1);
+  margin-top: 16px;
+}
+
+.grade-filter-container__filter {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.grade-filter-container__filter h4 {
+  font-size: 14px !important;
+}
+
+.grade-filter__active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.site-tag-plus.ant-tag {
+  background: #fff;
+  border-style: dashed;
+  margin-bottom: 8px !important;
+  margin-right: 8px !important;
+  padding: 2px 12px;
+  font-size: 13px;
+}
+
+.site-tag-plus.clear-all-filters.ant-tag {
+  background: none !important;
+  border: 0;
+  text-transform: capitalize;
+  color: rgb(17, 25, 69);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 2px 7px;
+  cursor: pointer;
+}
+
+.cloning-token-input {
+  width: unset;
+}
+
+.cloning-token-input .ant-input-search-button {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}

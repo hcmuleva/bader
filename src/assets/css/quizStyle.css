@@ -1,0 +1,21 @@
+.question-statistic-preview .ant-statistic-title {
+  margin: 0;
+  color: #222;
+  font-size: 18px;
+}
+
+.fill-in-blank-option {
+  border-bottom: 1px dashed #a7a6a6;
+  padding: 0 2px;
+  margin: 0 4px;
+  color: red;
+  font-size: 13px;
+}
+
+.quiz-question-detail .ql-editor {
+  height: 150px !important;
+}
+
+.quiz-answer-explanation .ql-editor {
+  height: 100px !important;
+}

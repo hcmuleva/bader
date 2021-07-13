@@ -1,0 +1,79 @@
+.school-setting__button-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.school-setting__primary-button.ant-btn-background-ghost.ant-btn-primary {
+  color: #3a57e2;
+  border-color: #3a57e2;
+}
+
+.school-setting h2 {
+  margin: 0;
+}
+
+.school-setting__school-detail {
+  display: flex;
+}
+
+.school-setting__image {
+  width: 200px;
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.school-setting__image input {
+  display: none;
+}
+
+.school-setting__image .not-empty-div {
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  font-size: 24px;
+  user-select: none;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.school-setting__image img {
+  object-fit: cover;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.school-setting__tab-menu {
+  flex: 1;
+  margin-left: 16px;
+}
+
+.pl-25 {
+  padding-left: 25px !important;
+}
+
+.school-setting__tab-menu .ant-tabs-tab {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  font-size: 16px;
+  margin-right: 0;
+}
+
+.school-setting__tab-menu .ant-tabs-tab-active {
+  border-color: #fafbfe !important;
+}
+
+.tab-menu-content-box {
+  padding-right: 24px;
+}
